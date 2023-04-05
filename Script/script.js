@@ -122,14 +122,12 @@ let text=document.querySelector('.dynamic-text');
     const textLoad=()=>{
           setTimeout(()=>{
             text.textContent='Front End Developer '
-          },0)
+          },20)
           setTimeout(()=>{
             text.textContent='React JS Developer '
           },4000)
-          setTimeout(()=>{
-            text.textContent='MERN Stack Developer '
-          },8000)
+         
     }
     textLoad();
-    setInterval(textLoad,12000)
+    setInterval(textLoad,8000)
 

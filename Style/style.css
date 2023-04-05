@@ -48,6 +48,7 @@ h6 {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  /* overflow: hidden; */
 }
 nav {
   background: var(--primary);
@@ -70,11 +71,12 @@ nav .inner .logo img {
   color: var(--info);
   width: 30px;
   height: 30px;
-
-
 }
 
-
+nav .container .logo span{
+  
+  margin: auto 30px;
+}
 nav .inner button {
   background: var(--secondary);
   border: none;
@@ -132,6 +134,7 @@ section.profile .left p.cd-headline.loading-bar .cd-words-wrapper::after {
   width: 100%;
   border-left: 2px solid var(--danger);
   animation:typing 4s steps(15) infinite;
+  overflow: hidden;
 }
 @keyframes typing{
   40%,60%{
@@ -775,8 +778,172 @@ footer{
  
 }
 
-@media (max-width:361px){
+@media (max-width:425px){
    .container{
   padding: 0px 20px;
  }
+ .logo span{
+      font-size: 13px;
+ }
+ .dynamic-text{
+      display: flex;
+      flex-wrap: nowrap;
+ }
+ section.contact .wrapper .left,section.contact .wrapper .right{
+  margin-left: -20px;
+ }
+ section.contact .wrapper .right button{
+  margin-top: 15px;
+  
+ }
+ .skills{
+  margin-top: -50px;
+ }
+ .inner_right{
+  margin-right: -20px;
+ }
+ .content .heading .inner_right .heading{
+  margin-right: -20px;
+ }
+ section.counter_section{
+  margin-top: -40px;
+  margin-left: -14px;
+ }
+ footer.container{
+  padding: 20px 0px;
+ }
+ section.profile .left .avatar_block{
+  margin-right: 100px;
+  justify-content: left;
+ }
+ section.profile .left .userDetails .userName{
+  margin-left: -70px;
+  overflow: hidden;
+ }
+ .logo span{
+  justify-content: center;
+  display: flex;
+ }
+ .dynamic-text{
+ margin-left: -50px;
+  overflow: hidden;
+  font-size: 10px;
+  animation: none;
+ }
+ .static-text{
+  display: none;
+ }
+  .container {
+  max-width: 1170px;
+  margin: 0 10px;
 }
+.container .profile{
+  margin-right: -10px;
+}
+section.about .content .left h2{
+  margin-left: -30px;
+}
+section.about .content .left a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+section.about .content .left p{
+ width: 300px;
+ margin-left: -30px;
+}
+}
+@media (max-width:380px){
+   .container{
+  padding: 0px 20px;
+ }
+ .dynamic-text{
+      display: flex;
+      flex-wrap: nowrap;
+ }
+ section.profile .left .avatar_block{
+  margin-left: -20px;
+  justify-content: left;
+ }
+ section.profile .left .userDetails .userName{
+  margin-left: -80px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+ }
+ .dynamic-text{
+ margin-left: -70px;
+  overflow: hidden;
+  font-size: 10px;
+  animation: none;
+ }
+ /* .static-text{
+  display: none;
+ } */
+ .logo img{
+  margin-left: -20px;
+ }
+ .logo span{
+  font-size: 14px;
+ justify-content: center;
+ display: flex;
+ }
+ section.about .right{
+  margin-top: -50px;
+ }
+ section.profile{
+  margin-left: -15px;
+ }
+ .portfolio{
+  margin-top: -100px;
+ }
+ .container {
+  max-width: 1170px;
+  margin: 0 20px;
+}
+section.partners{
+  margin-left: -30px;
+}
+.content .right{
+  margin-left: -40px;
+}
+section.counter_section{
+  margin-left: -10px;
+}
+section.work .portfolio .tabs ul li a{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+section.partners .brands_wrapper {
+  margin-bottom: -120px;
+}
+section.partners .brands_wrapper img{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section .section_heading{
+  margin-left: -20px;
+}
+
+
+section.skills .content .left .inner_left{
+   margin-left: -30px;
+   
+}
+section.skills .content .left .inner_right{
+  margin-left: 50px;
+}
+section.skills .content .left .inner_left .timeline_wrapper{
+  margin-left: -20px;
+}
+body{
+  padding-bottom: 0rem;
+}
+}
+
+
