@@ -121,13 +121,16 @@ event.target.classList.add('active')
 let text=document.querySelector('.dynamic-text');
     const textLoad=()=>{
           setTimeout(()=>{
-            text.textContent='Front End Developer '
-          },20)
+            text.textContent='FrontEnd Developer '
+          },0)
           setTimeout(()=>{
             text.textContent='React JS Developer '
           },4000)
+            setTimeout(()=>{
+            text.textContent='MERN Stack Developer '
+          },8000)
          
     }
     textLoad();
-    setInterval(textLoad,8000)
+    setInterval(textLoad,12000)
 

@@ -133,7 +133,7 @@ section.profile .left p.cd-headline.loading-bar .cd-words-wrapper::after {
   height: 100%;
   width: 100%;
   border-left: 2px solid var(--danger);
-  animation:typing 4s steps(15) infinite;
+  animation:typing 4s steps(16) infinite;
   overflow: hidden;
 }
 @keyframes typing{
@@ -862,16 +862,19 @@ section.about .content .left p{
       display: flex;
       flex-wrap: nowrap;
  }
+
  section.profile .left .avatar_block{
   margin-left: -20px;
   justify-content: left;
  }
+
  section.profile .left .userDetails .userName{
   margin-left: -80px;
   overflow: hidden;
   font-size: 16px;
   font-weight: 500;
  }
+
  .dynamic-text{
  margin-left: -70px;
   overflow: hidden;
@@ -928,6 +931,7 @@ section.partners .brands_wrapper img{
 }
 section .section_heading{
   margin-left: -20px;
+
 }
 
 
@@ -945,5 +949,6 @@ body{
   padding-bottom: 0rem;
 }
 }
+
 
 
